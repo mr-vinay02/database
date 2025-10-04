@@ -86,6 +86,14 @@ delimiter ;
 
 -- delete the record from the orders table to check action of the trigger	
 delete from orders where order_id = 101 ;
-
+     
 -- it show the trigger action in this table
 select * from orders_audit;
+
+
+-- views all the trigger
+show triggers;
+
+-- drop trigger
+drop trigger trigger_name;
+
